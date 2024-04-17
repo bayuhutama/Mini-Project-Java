@@ -1,0 +1,97 @@
+<div class="col-sm">
+	<table class="table">
+		<tr class="row">
+			<td class="col-3 justify-content-center"><a class="navbar-brand text-dark justify-content-center" href="profil">Profil</a></td>
+			<td class="col-3 justify-content-center"><a class="navbar-brand text-dark justify-content-center" href="#">Alamat</a></td>
+			<td class="col-3 justify-content-center"><a class="navbar-brand text-dark justify-content-center" href="#">Pembayaran</a></td>
+			<td class="col-3 justify-content-center"><a class="navbar-brand text-dark justify-content-center" id="withdraw">Tarik
+					Saldo</a></td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<div
+		class="row justify-content-center border border-primary dataProfil"
+		id="content2">
+		<div class="row justify-content-between" id="header">
+			<div class="col-4 text-primary">Data Pribadi</div>
+			<div class="col-4 text-primary">
+				<a class="navbar-brand text-primary bi bi-pencil-fill btnUbah"
+					id="btnUbahData"> Ubah</a>
+			</div>
+		</div>
+		<div class="dataPribadi">
+			<div class="col-4 text-primary">Nama Lengkap</div>
+			<div class="col-4">
+				<span id="namaUser"></span>
+			</div>
+		</div>
+
+		<div class="dataPribadi">
+			<div class="col-4 text-primary">Tanggal Lahir</div>
+			<div class="col-4">
+				<span id="tanggalLahir"></span>
+			</div>
+		</div>
+
+		<div class="dataPribadi">
+			<div class="col-4 text-primary">Nomor Handphone</div>
+			<div class="col-4">
+				<span id="nomorHP"></span>
+			</div>
+		</div>
+
+		<div class="row justify-content-between" id="header">
+			<div class="col-4 text-primary">Data Akun</div>
+		</div>
+		<div class="dataPribadi">
+			<div class="row justify-content-between">
+				<div class="col-4 text-primary">Email</div>
+				<div class="col-4 text-primary">
+					<a class="navbar-brand text-primary bi bi-pencil-fill btnUbah"
+						id="btnUbahEmail"> Ubah</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<span id="inEmail"></span>
+			</div>
+
+		</div>
+
+		<div class="dataPribadi dataAkhir">
+			<div class="row justify-content-between">
+				<div class="col-4 text-primary">Password</div>
+				<div class="col-4 text-primary">
+					<a class="navbar-brand text-primary bi bi-pencil-fill btnUbah"
+						id="btnUbahPass"> Ubah</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<span id="spanPass"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row justify-content-center">
+		<div class="modal" tabindex="-1" role="dialog" id="dataProfilModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<!--  div class="modal-header"-->
+						<!--  h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button-->
+					<!-- /div-->
+					<div class="modal-body" id="dataProfilModalBody"></div>
+					<!--  div class="modal-footer"-->
+						<!-- button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button-->
+					<!-- /div-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="profil/dataProfil.js"></script>

@@ -1,0 +1,26 @@
+<h4 id="ubahDataHead" class="text-primary">Masukan OTP</h6>
+
+<div class="container">
+<div class="row">
+Masukan kode OTP yang telah dikirimkan ke email anda<br>
+<input type="text" id="inInputOTP" required="required" maxlength="6"><br>
+<span id="otpKadaluarsa" class="text-danger">Kode OTP kadaluarsa, silahkan kirim ulang otp</span>
+<span id="otpSalah" class="text-danger">kode OTP salah</span>
+<span id="otpKosong" class="text-danger">OTP tidak boleh kosong</span>
+</div>
+<br>
+<div class="col-sm-3 justify-content-center">
+<input type="button" class="btn btn-primary" id="btnResendOTP" value="Kirim Ulang OTP">
+</div>
+<br>
+<div class="row">
+<div class="col-sm-3 justify-content-center">
+<input type="button" class="btn btn-primary" id="btnConfirmOTP" value="Confrim">
+</div>
+<div class="col-sm-3 justify-content-center">
+<input type="button" class="btn btn-light" id="btnCancelOTP" value="Cancel">
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="profil/emailOTP.js"></script>

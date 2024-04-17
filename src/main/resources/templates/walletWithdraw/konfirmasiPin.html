@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Konfirmasi Pin</title>
+</head>
+<body>
+<h4 id="ubahDataHead" class="text-primary">Masukan PIN</h6>
+<br>
+<!--  input type="text" id="custId"-->
+<input type="password" id="inPin" required="required" maxlength="6">
+<br>
+<span id="pinKosong" class="text-danger">Pin tidak boleh kosong</span>
+<span id="pinKurang" class="text-danger">Pin kurang dari 6 digit</span>
+<span id="pinSalah" class="text-danger">Pin salah <br><sub>jika pin salah lebih dari 3 kali akun akan terkunci*</sub></span>
+<br>
+<br>
+<input type="button" id="btnConfirm3" class="btn btn-primary" value="Confirm">
+<input type="button" id="btnCancel3" class="btn btn-light" value="Cancel">
+</body>
+<script type="text/javascript" src="walletWithdraw/konfirmasiPin.js"></script>
+</html>
